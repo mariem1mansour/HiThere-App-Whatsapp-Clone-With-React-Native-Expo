@@ -1,43 +1,64 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Learn more: https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# dependencies
+# ==============================
+# Dependencies
+# ==============================
 node_modules/
 
+# ==============================
 # Expo
+# ==============================
 .expo/
 dist/
 web-build/
 expo-env.d.ts
 
-# Native
-.kotlin/
-*.orig.*
+# ==============================
+# Native Platform Files
+# ==============================
+# iOS
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
+*.orig.*
+*.pem
 
-# Metro
+# Android / Kotlin
+.kotlin/
+/ios
+/android
+
+# ==============================
+# Build & Bundler Artifacts
+# ==============================
+# Metro bundler
 .metro-health-check*
 
-# debug
+# TypeScript
+*.tsbuildinfo
+
+# ==============================
+# Debug & Package Manager Logs
+# ==============================
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
-.DS_Store
-*.pem
-
-# local env files
+# ==============================
+# Local Environment Files
+# ==============================
+# Ignore all local env files (e.g., .env.local, .env.development.local)
 .env*.local
 
-# typescript
-*.tsbuildinfo
+# ==============================
+# OS & Editor
+# ==============================
+# macOS
+.DS_Store
 
+# ==============================
+# Custom Directories / Examples
+# ==============================
 app-example
-
-# generated native folders
-/ios
-/android
