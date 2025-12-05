@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "whatsappClone",
-    "slug": "whatsappClone",
+    "name": "Hi There App",
+    "slug": "Hi There App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/images/icon.png",
-    "scheme": "whatsappclone",
+    "icon": "./src/assets/images/splash.png",
+    "scheme": "Hi There App",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -23,14 +23,14 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./src/assets/images/favicon.png"
+      "favicon": "./src/assets/images/splash.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./src/assets/images/splash.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
