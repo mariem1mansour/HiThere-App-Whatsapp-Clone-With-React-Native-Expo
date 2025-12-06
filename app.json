@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Hi There App",
-    "slug": "Hi There App",
+    "name": "HiThere App",
+    "slug": "HiThere App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/splash.png",
-    "scheme": "Hi There App",
+    "scheme": "HiThere App",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
